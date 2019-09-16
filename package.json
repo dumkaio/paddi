@@ -1,0 +1,15 @@
+{
+  "name": "paddi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "start": "tsc -p tsconfig.json --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleksandr Telnov <otelnov@dumka.io> (https://dumka.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "3.5.3"
+  }
+}
