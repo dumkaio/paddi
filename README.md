@@ -5,12 +5,19 @@ Specify the padding values within the component group or frame name. E.g. button
 
 ### ❖ FEATURES
 ✅ Paddi works with Groups, Frames, Components, Libraries.
+
 ✅ Paddi is simple! The only thing you need to do is specify the paddings in the component name
+
 ✅ Recognize components with paddings looking at their names. ⚡️ It works the same as in CSS.
+
 ✅ Paddi is flexible. No limitation there, set the same padding for all sides [12] or different for each one [12 24 14 32].
+
 ✅ Paddi uses a base element as a parent and calculates paddings from it.
+
 ✅ Speed up your workflow! You don’t need to open plugin settings all the time you need to update paddings. You only need to rename the component and run the Paddi.
+
 ✅ Natural master & instance behavior. If you change master component paddings, you don’t need to do anything else to update instances, Paddi will update all instances automatically.
+
 ✅ Paddi works with libraries. Create a master component in your library file and apply the padding for all its instances in any project file. ⚠️ If you change padding for the master component in the library you will have to update all instances in the other files manually.
 
 ### ❖ PADDINGS
@@ -51,21 +58,34 @@ To ignore some elements in your component, rename the necessary ones with [ignor
 
 ### ❖ IMPORTANT TO KNOW
 ⚠️ The lowest element in a group or frame is going to be the base of the component! So don't forget to add a base. 
+
 ⚠️ The base element in your component will be marked as (base) in the layer name.
+
 ⚠️ You can’t change paddings for instance because you can’t change its elements positioning. To handle it, go to the master component or detach the instance.
+
 ⚠️ If you want to set a Frame as a base and specify paddings for it, wrap all elements inside this frame in a group to have only one element in the frame and then apply Paddi.
 
 ### ❖ WHERE TO USE
 ✅ Buttons
+
 ✅ Tab items
+
 ✅ Navigation items
+
 ✅ Dropdown menus
+
 ✅ Tags / Pils / Badges
+
 ✅ Tooltips / Popovers
+
 ✅ Icons
+
 ✅ UI Cards
+
 ✅ Modal dialogs
+
 ✅ Sections
+
 ✅ Etc.
 
 ### ❖ SHORTCUT FOR MAC OS
