@@ -46,11 +46,14 @@ We recommend to use space for separating padding values to keep it simple, howev
 2. Set constraints for the master component to make sure its instances will responsive correctly. Set Scale for the base and make sure all other elements have Left and Top
 3. Change elements and run Paddi. ⚠️ Because you can’t change elements position in an instance you will be able to change only the text elements and then apply the paddings
 
+### ❖ IGNORE
+To ignore some elements in your component, rename the necessary ones with [ignore] or [nopaddi] at the end of its name.
+
 ### ❖ IMPORTANT TO KNOW
 ⚠️ The lowest element in a group or frame is going to be the base of the component! So don't forget to add a base. 
+⚠️ The base element in your component will be marked as (base) in the layer name.
 ⚠️ You can’t change paddings for instance because you can’t change its elements positioning. To handle it, go to the master component or detach the instance.
 ⚠️ If you want to set a Frame as a base and specify paddings for it, wrap all elements inside this frame in a group to have only one element in the frame and then apply Paddi.
-⚠️ You can’t update paddings for several components at the same time, just yet. 
 
 ### ❖ WHERE TO USE
 ✅ Buttons
@@ -76,3 +79,15 @@ Open System Preferences -> Keyboard -> Shortcuts tab -> App Shortcuts -> Add new
 
 ### 😎 MADE BY
 Oleksandr Telnov & Mikhail Voloshin at Dumka.io
+
+
+#### Version history
+
+✅ Ignore
+Allows to ignore some elements in components with paddings to make it even more flexible. Similar to position absolute in CSS. Use [ignore] or [nopaddi] in layer name to exclude the element from Paddi calculation.
+
+✅ Base Marker
+Now you can notice “(base)” in the layer name. It shows what elements is the base in your component.
+
+✅ Multi-Paddi
+Apply Paddi for bunch of components at the same time. Now you can apply Paddi for several components in one click. Just select all necessary components and apply Paddi.
